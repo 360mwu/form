@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода данных</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Форма регистрации</h2>
+            
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email">
+
+            <label for="search">Поиск:</label>
+            <input type="search" id="search" name="search" placeholder="Введите запрос">
+
+            <label for="tel">Телефон:</label>
+            <input type="tel" id="tel" name="tel" placeholder="Введите ваш номер телефона">
+
+            <label for="url">Сайт:</label>
+            <input type="url" id="url" name="url" placeholder="Введите URL">
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" minlength="8" maxlength="20" placeholder="Введите пароль">
+
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="age" placeholder="Введите ваш возраст">
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
+</html>
